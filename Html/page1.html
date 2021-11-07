@@ -9,43 +9,42 @@
 </head>
 
 <body>
-    <main>
-        <label for="firstName"><sup>*</sup>نام</label>
-        <input type="text" id="firstName">
+    <div class="container">
+        <section class="input">
+            <label for="first-name"><sup>*</sup>نام</label>
+            <input type="text" id="first-name" placeholder="نام">
 
-        <label for="lastName"><sup>*</sup>نام خانوادگی</label>
-        <input type="text" id="lastName">
+            <label for="last-name"><sup>*</sup>نام خانوادگی</label>
+            <input type="text" id="last-name" placeholder="نام خانوادگی">
 
-        <label for="fatherName"><sup>*</sup>نام پدر</label>
-        <input type="text" id="fatherName">
+            <label for="father-name"><sup>*</sup>نام پدر</label>
+            <input type="text" id="father-name" placeholder="نام پدر">
 
-        <label for="fatherName"><sup>*</sup>تاریخ تولد</label>
-        <input type="date" id="fatherName">
+            <label for="father-name"><sup>*</sup>سن</label>
+            <input type="number" id="father-name" placeholder="سن">
 
-        <label for="phoneNumber"><sup>*</sup>تلفن همراه</label>
-        <input type="number" id="phoneNumber">
-
-        <label for="address">آدرس</label>
-        <textarea name="text" id="address" cols="30" rows="10"></textarea>
-        <div class="table" id="table">
-            <table border="2px">
+            <label for=" phone-number">تلفن همراه</label>
+            <input type="number" id="phone-number" placeholder="تلفن همراه">
+            <button type="submit" class="btn-sign-up"> ثبت نام</button>
+        </section>
+        <section class="table" id="table">
+            <table>
                 <th>ردیف</th>
                 <th>نام</th>
                 <th>نام خانوادگی</th>
                 <th>نام پدر</th>
-                <th>ردیف</th>
-                <th>تاریخ تولد</th>
-                <th>آدرس</th>
+                <th>سن</th>
+                <th>تلفن همراه</th>
             </table>
-        </div>
-    </main>
-    <aside>
-        <h3>منو</h3>
-        <nav>
-            <a href="#">ثبت نام</a>
-            <a href="#">لیست کاربران</a>
-        </nav>
-    </aside>
+        </section>
+        <section class="menu">
+            <div class="item-menu">
+                <h3>منو</h3>
+                <a href="#">ثبت نام</a>
+                <a href="#">لیست کاربران</a>
+            </div>
+        </section>
+    </div>
 </body>
 <script src="../Javascript/page1.js"></script>
 
