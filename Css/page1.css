@@ -55,6 +55,7 @@ font-size: 18px;
 .table {
   grid-column: -1 / -2;
   margin: 0 auto;
+  overflow: scroll;
 }
 table,
 th,
