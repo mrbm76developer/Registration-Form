@@ -6,28 +6,29 @@
   direction: rtl;
 }
 @font-face {
-    font-family: "koodak";
-    src: url("../font/b-nazanin2.woff2") format("woff2");
-  }
-  @font-face {
-    font-family: "titr";
-    src: url("../font/b-titr-bold.ttf") format("truetype");
-  }
+  font-family: "koodak";
+  src: url("../font/b-nazanin2.woff2") format("woff2");
+}
+@font-face {
+  font-family: "titr";
+  src: url("../font/b-titr-bold.ttf") format("truetype");
+}
 body {
   display: flex;
   flex-direction: column;
   gap: 50px;
-  font-family: 'titr';
+  font-family: "titr";
 }
 .input {
     margin: 0 auto;
     margin-top: 50px;
+    font-family: "titr";
 }
 .table {
     margin: 0 auto;
     
 }
-table,th,tr{
+table,th,td{
     width: 100%;
     border: 2px solid #000;
     border-collapse: collapse;

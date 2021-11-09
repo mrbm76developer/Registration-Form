@@ -8,14 +8,14 @@
     <link rel="stylesheet" href="../Css/page2.css">
 </head>
 
-<body>
+<body onload={showData();}>
     <div class="input">
         <label for="search">جستجو</label>
-        <input type="text" placeholder="جستجو">
+        <input id="user-search" type="text" placeholder="جستجو" onkeyup={Search();}>
+        <button id="search1" class="search1" >جستجو</button>
     </div>
-    <div class="table" id="table">
-        <table>
-            <th>ردیف</th>
+    <div class="table" >
+        <table id="table"> 
             <th>نام</th>
             <th>نام خانوادگی</th>
             <th>نام پدر</th>
@@ -23,7 +23,8 @@
             <th>تلفن همراه</th>
         </table>
     </div>
+    <span id="test">test</span>
+<script src="../Javascript/page2.js"></script>
 </body>
-<!-- <script src="../Javascript/page1.js"></script> -->
 
 </html>
